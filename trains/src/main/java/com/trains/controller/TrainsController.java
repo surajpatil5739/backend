@@ -19,7 +19,7 @@ import com.trains.services.TrainService;
 
 @RestController
 @RequestMapping("/train")
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin("*")
 public class TrainsController {
 
 	@Autowired

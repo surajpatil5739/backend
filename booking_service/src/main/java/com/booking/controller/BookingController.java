@@ -18,7 +18,7 @@ import com.booking.entity.Bookings;
 
 @RestController
 @RequestMapping("booking")
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin("*")
 public class BookingController {
 	
 	@Autowired

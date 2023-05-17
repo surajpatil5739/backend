@@ -14,7 +14,7 @@ import com.passenger.services.PassengerService;
 
 @RestController
 @RequestMapping("/passenger")
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin("*")
 public class PassengerController {
 
 	@Autowired

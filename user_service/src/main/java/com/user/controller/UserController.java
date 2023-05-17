@@ -15,7 +15,8 @@ import com.user.services.*;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins="http://localhost:4200")
+//@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin("*")
 public class UserController {
 	
 	@Autowired
